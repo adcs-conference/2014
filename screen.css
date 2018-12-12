@@ -1,0 +1,158 @@
+body {
+	color: #000000;
+	background: #9CC089;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+div.left{
+	margin: 1.5ex;
+	padding: 2ex;
+	position: absolute;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	width: 22ex; 
+	background: #D8F3C9;
+}
+
+div.main{
+	margin: 1.5ex;
+	padding: 2ex;
+	position: fixed;
+	top: 0; 
+	left: 28ex; /*Set left value to WidthOfFrameDiv*/
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background: #D8F3C9;
+
+}
+
+
+div.main_full{
+	margin: 1.5ex;
+	padding: 2ex;
+	position: fixed;
+	top: 0; 
+	left: 0; /*Set left value to WidthOfFrameDiv*/
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background: #CCE6FF;
+}
+
+
+div.menu {
+	float: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #445077;
+}
+
+div.sponsors{
+	text-align: center; 
+	float: right; 
+	margin: 1em; 
+	width: 20ex; 
+	background: white
+}
+
+h1 {
+	text-align: center;
+	color: #445077;
+}
+
+h2 {
+	color: #445077;
+}
+
+h2.programme {
+	text-align: center;
+}
+
+h3 {
+	color: #445077;
+}
+
+h4 {
+	color: #445077;
+}
+
+img.logo {
+	width: 17ex;
+}
+
+img.sponsor {
+	border-style: none; 
+	width: 18ex; 
+	background:white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.news{
+	background: #63DC90;
+}
+
+p.image {
+	text-align: center;
+}
+
+table.programme {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.heading {
+	font-weight: bold;
+	color: blue;
+	width: 20%;
+	text-align: center;
+}
+
+a:link {
+        text-decoration:   none;
+        color:             #0000EE;
+}
+
+a:visited {
+        text-decoration:   none;
+        color:             #0000EE;
+}
+
+a:hover
+{
+   color: red;
+}
+
+a:active {
+        text-decoration:   none;
+        color:             #008000;
+}
+
+* html body { /*IE6 hack*/
+	padding: 0 0 0 24ex; /*Set value to (0 0 0 WidthOfFrameDiv)*/
+}
+
+* html #maincontent{ /*IE6 hack*/
+	height: 100%; 
+	width: 100%; 
+}
+
+.talk {
+        background-color: #D0D0D0;
+}
+
+.footer {
+        font-family:      Verdana, Arial, Helvetica, sans-serif;
+        font-size:        70%;
+        color:            #888888;
+		  text-align:       right;
+}
+
+.comlist td {
+	padding-right:	  10px;
+}
